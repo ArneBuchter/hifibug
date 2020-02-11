@@ -1,0 +1,84 @@
+/* BEM */
+
+/* BLOCKS */
+
+.header{
+    
+    width: 100%;
+    background-color: var(--color-one);
+    color: var(--color-three);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr auto;
+    box-sizing: border-box;
+}
+
+/* ELEMENTS */
+
+.header__logo{
+    font-family: "museo-sans", sans-serif;
+    margin: 5px 2px 5px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border: solid 1px var(--color-three);
+    height: 50px;
+    width: 50px;
+}
+
+.header__logo-hifi{
+    margin: 0 0 2px 2px;
+}
+
+.header__icons{
+    align-self: center;
+    justify-self: center;
+}
+
+.header_koebekurv{
+    text-decoration: none;
+    color: var(--color-three);
+}
+
+.header__fa{
+    margin: 0 15px;
+}
+
+.header__button{
+    background-color: royalblue;
+    color: var(--color-three);
+    border-style: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+.header__nav{
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--color-four);
+    width: 100%;
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+}
+
+.header__ul{
+    margin: 3px 0;
+    list-style: none;
+    font-size: var(--p-size);
+    display: flex;
+    justify-content: center;
+}
+
+.header__li{
+    margin: 0 1%;
+}
+
+.header__a{
+    text-decoration: none;
+    color: var(--color-three);
+}
+
+.header__a:hover{
+    color: var(--color-four);
+}

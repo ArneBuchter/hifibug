@@ -1,0 +1,20 @@
+.shop_topbar{
+    width: 50vw;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-five);
+}
+
+.shop_sortinghat{
+    display: flex;
+}
+
+.shop_itemcount, .shop_sortby{
+    padding: 0 1rem;
+}
+
+.shop_selections{
+    margin: 1rem 1rem 1rem 0;
+}

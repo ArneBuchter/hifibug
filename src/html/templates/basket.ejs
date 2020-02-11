@@ -1,0 +1,30 @@
+<% include ../partials/head %>
+<% include ../partials/header %>
+
+<main>
+
+    <div class="basket_infobar">
+        <div class="basket_varebeskrivelse underline"><p class="basket_text">varebeskrivelse</p></div>
+        <div class="basket_moms underline"><p class="basket_text">moms</p></div>
+        <div class="basket_pris underline"><p class="basket_text">pris</p></div>
+    </div>
+
+    <div class="basket_resultatbar">
+        <div class="basket_resultat"><p class="basket_text">pris for dit samlede køb</p></div>
+        <div class="basket_moms"><p class="basket_totalmoms">samlet moms</p></div>
+        <div class="basket_pris"><p class="basket_totalpris">samlet pris</p></div>
+    </div>
+
+</main>
+
+<% include ../partials/footer %>
+
+<script src="/assets/javaScript/basket.js"></script>
+
+<% include ../partials/after-footer %>
+
+<template id="basket_template">
+    <div class="basket_line"><p class="basket_lsvaretext"></p></div>
+    <div class="basket_line"><p class="basket_lsvaremoms"></p></div>
+    <div class="basket_line"><p class="basket_lsvarepris"></p></div>
+</template>

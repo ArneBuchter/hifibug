@@ -1,0 +1,43 @@
+<% include ../partials/head %>
+<% include ../partials/header %>
+
+<main class="shop__main__grid">
+    <% include ../partials/shop-topbar %>
+    <nav class="shop__left shop__left_top">
+        <ul class="shop__categories">
+            <li class="shop__items"><a href="index.html" id="all" class="shop__link">All</a></li>
+
+        </ul>
+    </nav>
+    <nav class="shop__left shop__left_bottom">
+        <p class="shop__text">SHOP BY</p>
+        <p class="shop__text">Filter</p>
+        <p class="shop__text">PRICE</p>
+        <ul class="shop__categories" id="pris">                 
+            <li class="shop__items"><a href="shop.html?prismin=0&prismax=799" class="shop__link">£0.00 - £799(<span class="shop__amount" id="one"></span>)</li>
+            <li class="shop__items"><a href="shop.html?pris=2" class="shop__link">£800 - £999(<span class="shop__amount" id="two"></span>)</li>
+            <li class="shop__items"><a href="shop.html?pris=3" class="shop__link">£1000 - £1499(<span class="shop__amount" id="three"></span>)</li>
+            <li class="shop__items"><a href="shop.html?pris=4" class="shop__link">£1500 - £1999(<span class="shop__amount" id="four"></span>)</li>
+            <li class="shop__items"><a href="shop.html?pris=5" class="shop__link">£2000 - £2999(<span class="shop__amount" id="five"></span>)</li>
+            <li class="shop__items"><a href="shop.html?pris=6" class="shop__link">£3000 - £above(<span class="shop__amount" id="six"></span>)</li>
+        </ul>
+        <a href="./shop.html?manufacturer" class="shop__link">MANUFACTURER</a>
+        <ul class="shop__categories" id="man">
+                <!-- li i js -->
+        </ul>
+    </nav>
+    <div class="shop__info-component"></div>
+    <div class="shop__filter-picker"></div>
+    
+    <section class="shop__products">
+
+    </section>
+    
+</main> 
+<% include ../partials/shop-topbar %>
+<% include ../partials/footer %>
+
+<script src="/assets/javaScript/shop.js"></script>
+<script src="/assets/javaScript/itemcount.js"></script>
+
+<% include ../partials/after-footer %>

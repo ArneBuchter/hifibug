@@ -1,0 +1,36 @@
+.brand_flex{
+    display: flex;
+    margin:  6%;
+    justify-content: center;
+}
+
+.brand_img{
+    max-width: 100%;
+}
+
+.brand_brands{
+    max-width: 31rem;
+    background-color: var(--color-one);
+    color: var(--color-four);
+}
+
+.brand_header{
+    padding-left: 1rem;
+    color: var(--color-four);
+}
+.brand_text{
+    padding-left: 1rem;
+    color: var(--color-three);
+}
+
+.brand_section{
+    max-width: 31rem;
+    background-color: var(--color-two);
+}
+
+.brand_a{
+    padding-left: 1rem;
+    color: var(--color-four);
+    font-size: var(--p-size);
+    font-family: var(--font);
+}

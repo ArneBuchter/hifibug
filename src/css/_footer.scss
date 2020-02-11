@@ -1,0 +1,49 @@
+.footer__outer-flex{
+    background-color: var(--color-four);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__inner-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.footer__adresse{
+    font-family: var(--font);
+    font-weight: 700;
+    font-size: 0.8rem;
+    align-self: flex-end;
+    margin: 5px;
+}
+
+.footer__info-links{
+    display: flex;
+    color: var(--color-three);
+    padding: 0;
+}
+
+.footer__p{
+    margin: 0;
+    padding: 0;
+}
+
+.footer__link{
+    list-style: none;
+}
+
+
+.footer__a{
+    color: var(--color-three);
+    margin: 0 5px;   
+}
+
+.footer__payment-item{
+    font-size: 1.4rem;
+    margin: 20px 5px 0 0;
+}
+
+.footer__some{
+    margin-right: 20px; 
+}
